@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar start  */
+.navbar {
+  background: rgba(0, 0, 0, 0.685);
+  width: 100%;
+  height: 70px;
+  position: fixed;
+}
+.navbar a {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+}
+.navbar ul {
+  width: auto;
+  float: right;
+  padding: 6px;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 40px;
+  font-size: 30px;
+  opacity: 0.8;
+}
+.navbar ul li a:hover {
+  opacity: 1;
+}
+
+/* navbar end */
+/* home start*/
+.home {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+}
+.home img {
+  width: 100%;
+  height: 700px;
+}
+
+/* home end */
+/* about us start*/
+
+.about {
+  width: 100%;
+}
+.about h1 {
+  text-align: center;
+  color: green;
+  font-size: 40px;
+  padding: 20px;
+}
+.about .aboutussection {
+  display: flex;
+}
+.about .aboutussection img {
+  width: 50%;
+}
+.about .aboutussection p {
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+/* about us end */
+/* services start */
+.services {
+  text-align: center;
+  padding: 50px;
+  justify-content: center;
+}
+.services h1 {
+  text-align: center;
+  color: green;
+  font-size: 40px;
+}
+.servicessection {
+  display: flex;
+  justify-content: center;
+}
+.servicessection .card {
+  background-color: blue;
+  width: 400px;
+  height: 300px;
+  border: solid 3px;
+  margin-left: 20px;
+}
+.servicessection .card:hover {
+  background: rgba(128, 128, 128, 0.972);
+  transform: translatey(-20px);
+}
+.servicessection .card h1 {
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.servicessection .card p {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.952);
+}
+
+
+
+/* services end */
+
+/* footer start */
+footer {
+    background: rgb(105, 100, 100);
+    text-align: center;
+    color: white;
+  }
+  footer h2 {
+    opacity: 0.5;
+  }
+  footer h2:hover {
+    opacity: 1;
+  }
+/* footer end */
